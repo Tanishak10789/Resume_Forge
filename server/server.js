@@ -19,6 +19,7 @@ await connectDB();
 const allowedOrigins = [
   "http://localhost:5173",
   "https://resume-forge-omega-coral.vercel.app",
+  "https://tk-resume-forge.vercel.app",  // 👈 ADD THIS NEW LINE
 ];
 
 app.use(
